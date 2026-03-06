@@ -1,9 +1,10 @@
 package core.basesyntax;
 
 public class Excavator extends Machine {
-    public Excavator () {
+    public Excavator() {
 
     }
+
     public void doWork() {
         System.out.println("Excavator started its work!");
     }
