@@ -9,7 +9,7 @@ public class MainApp {
         machines[1] = new Bulldozer();
         machines[2] = new Truck();
 
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < machines.length; i++) {
             machines[i].doWork();
             machines[i].stopWork();
         }
